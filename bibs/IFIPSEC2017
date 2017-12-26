@@ -1,0 +1,12 @@
+@inproceedings{ifipsec17,
+  author    = {Pablo Picazo{-}Sanchez and
+               Ra{\'{u}}l Pardo and
+               Gerardo Schneider},
+  title     = {Secure Photo Sharing in Social Networks},
+  booktitle = {{ICT} Systems Security and Privacy Protection - 32nd {IFIP} {TC} 11
+               International Conference, {SEC} 2017, Rome, Italy, May 29-31, 2017,
+               Proceedings},
+  pages     = {79--92},
+  year      = {2017},
+  doi       = {10.1007/978-3-319-58469-0_6}
+}

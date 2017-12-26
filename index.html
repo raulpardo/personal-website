@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Raul Pardo">
+
+    <title>Raúl Pardo's Website</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Adding font-awesome -->
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+          </div>
+	  <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+              <li class="hidden">
+                <a class="page-scroll" href="#page-top"></a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#about">About</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#publications">Publications</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#licentiate">Licentiate Thesis</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#professional-activities">Paper Review</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#teaching">Teaching</a>
+              </li>
+            </ul>
+
+	    <ul class="nav navbar-nav navbar-right social">
+	      <li><a target="_blank" href="https://scholar.google.se/citations?user=WRuI72kAAAAJ&hl=en"><i class="fa fa-lg fa-google"></i></a></li>
+              <li><a target="_blank" href="https://se.linkedin.com/pub/ra%C3%BAl-pardo-jim%C3%A9nez/37/187/714"><i class="fa fa-lg fa-linkedin"></i></a></li>
+              <li><a target="_blank" href="https://www.facebook.com/raulpardoj"><i class="fa fa-lg fa-facebook"></i></a></li>
+              <li><a target="_blank" href="https://twitter.com/raparuldo"><i class="fa fa-lg fa-twitter"></i></a></li>
+            </ul>
+
+          </div>
+          <!-- /.navbar-collapse -->
+	</div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+          <div class="row">
+	      <div class="col-sm-8" style="text-align: left">
+		<h1><b>Raúl Pardo</b></h1>
+		<p><i>Ph.D in Computer Science
+		    at <a title="Chalmers University of Technology"
+			  href="http://www.chalmers.se/en/Pages/default.aspx"
+			  target="_blank">Chalmers University of
+		      Technology</a></i></p><br>
+		<p><b>Email: </b>pardo <em>at</em> chalmers.se</p>
+		<p><b>Phone: </b>+46 (0) 762 74 45 61</p>
+		<p><b>Visiting address: </b>Rännvägen 6 Room: 5447, 5th floor (EDIT-building)</p>
+		<p><b>Postal Address: </b>Department of Computer Science and Engineering, Chalmers University of Technology, 412-96 Gothenburg, Sweden</p>
+	      </div>
+	      <div class="col-sm-4">
+		<img src="images/meBackgroundGreyCrop.jpg" alt="Raul Pardo's picture" class="img-responsive" height="259" />
+	      </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+	<div class="row">
+	  <div class="col-sm-12">
+	    <h1>About me</h1>
+	    <hr>
+	  </div>
+	</div>
+        <div class="row">
+          <div class="col-sm-12">
+	    <p style="text-align:justify;">I am a Ph.D. student in computer science in
+	      the <a title="Formal Methods"
+		     href="https://www.chalmers.se/en/departments/cse/organisation/fm/Pages/default.aspx"
+		     target="_blank">Formal Methods</a> division
+	      at Deparment of <a title="Computer Science and
+					Engineering" href="http://www.chalmers.se/cse/EN"
+				 target="_blank">Computer Science and
+		Engineering</a> at <a title="Chalmers University
+					     of Technology"
+				      href="http://www.chalmers.se/en/Pages/default.aspx"
+				      target="_blank">Chalmers University of
+		Technology</a>.</p>
+	    <h3>Research interest</h3>
+
+      <p style="text-align:justify;">My research is focused on enforcing privacy
+	    properties in big data systems, in particular social networks, by using
+	    formal methods. Currently, I am looking into the possibility of using
+	    knowledge-based logic for modelling deontic and epistemic properties of the
+	    system. This logic enables the possibility of definning more expressive
+	    privacy settings and also provides developers with tools to formally verify
+	    that the private information of the users is protected. I am under
+	    supervision of <a title="Gerardo Schneider"
+	    href="http://www.cse.chalmers.se/~gersch/" target="_blank">Gerardo
+	    Schneider</a> and <a title="David Sands"
+	    href="http://www.cse.chalmers.se/~dave/Homepage_David_Sands/Home.html"
+	    target="_blank">David Sands</a>.</p>
+
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+	    <h1>Publications</h1>
+      <hr>
+      <ul style="padding-left: 0px; list-style-type: none;">
+        <li><strong><a target="_blank" href="http://eptcs.web.cse.unsw.edu.au/paper.cgi?GANDALF2017.17">Model Checking Social Network Models</a><br>
+        </strong>Raúl Pardo and Gerardo Schneider. <em>In
+                8th International Symposium on Games, Automata, Logics, and Formal Verification (GandALF) (Rome, Italy. 2017)<br>
+              </em>Publisher: Electronic Proceedings in Theoretical Computer Science (EPTCS).<br>
+              [ <a target="_blank" href="bibs/GANDALF2017">bib</a>
+              | <a target="_blank" href="papers/gandalf2017.pdf">.pdf</a>
+          | <a target="_blank" href="abstracts/GANDALF2017">Abstract</a> ]</li>
+
+        <li><strong><a href="https://link.springer.com/chapter/10.1007%2F978-3-319-58469-0_6">Secure Photo Sharing in Social Networks</a><br>
+        </strong>Pablo Picazo-Sanchez, Raúl Pardo and Gerardo Schneider. <em>In
+                32nd International Conference on ICT Systems Security and Privacy Protection (IFIP SEC) (Rome, Italy. 2017)<br>
+              </em>Publisher: Lecture Notes in Computer Science (LNCS).<br>
+              [ <a href="bibs/IFIPSEC2017">bib</a>
+              | <a href="papers/IFIPSEC2017.pdf">.pdf</a>
+          | <a href="abstracts/IFIPSEC2017">Abstract</a> ]</li>
+
+          <li><strong><a href="http://www.sciencedirect.com/science/article/pii/S235222081730038X">Formalising Privacy Policies in Social Networks</a><br>
+          </strong>Raúl Pardo, Musard Balliu and Gerardo Schneider. <em>In Journal of Logical and Algebraic Methods in Programming (JLAMP), 2017.</em><br>
+          Publisher: Elsevier.<br>
+          [ <a href="bibs/JLAMP2017">bib</a>
+          | <a href="papers/JLAMP2017.pdf">.pdf</a>
+          | <a href="abstracts/JLAMP2017">Abstract</a> ]</li>
+
+
+        <li><strong><a href="http://ieeexplore.ieee.org/abstract/document/7774649/">Specification of Evolving Privacy Policies for Online Social Networks</a><br>
+        </strong>Raúl Pardo, Ivana Kellyérová, César Sánchez and Gerardo Schneider. <em>In
+                23rd International Symposium on Temporal Representation and Reasoning (TIME) (Copenhagen, Denmark. 2016)<br>
+              </em>Publisher: IEEE Computer Society Press.<br>
+              [ <a href="bibs/TIME2016">bib</a>
+              | <a href="papers/time2016.pdf">.pdf</a>
+          | <a href="abstracts/time2016">Abstract</a> ]</li>
+
+        <li><strong><a href="http://link.springer.com/chapter/10.1007/978-3-319-46982-9_18">An Automata-based Approach to Evolving Privacy Policies for Social Networks</a><br>
+        </strong>Raúl Pardo, Christian Colombo, Gordon J. Pace and Gerardo Schneider. <em>In
+      		      16th International Conference on Runtime Verification (RV) (Madrid, Spain. 2016)<br>
+      		    </em>Publisher: Lecture Notes in Computer Science
+      		    (LNCS). <br>  [ <a href="bibs/RV2016">bib</a>
+      		    | <a href="papers/rv2016.pdf">.pdf</a>
+      		| <a href="abstracts/rv2016">Abstract</a> ]</li>
+	<li><strong><a href="http://link.springer.com/chapter/10.1007/978-3-319-47169-3_33">On the Runtime Enforcement of Evolving Privacy Policies in Online Social Networks</a><br>
+		    </strong>Gordon J. Pace, Raúl Pardo and Gerardo Schneider. <em>In
+		      7th International Symposium on Leveraging Applications of Formal Methods, Verification and Validation (ISOLA) (Corfu, Greece. 2016)<br>
+		    </em>Publisher: Lecture Notes in Computer Science
+		    (LNCS).<br>  [ <a href="bibs/ISOLA2016">bib</a>
+		    | <a href="papers/isola16-RVE.pdf">.pdf</a>
+	  | <a href="abstracts/ISOLA2016">Abstract</a> ]</li>
+	      <li><strong><a href="http://link.springer.com/chapter/10.1007/978-3-319-10431-7_30">A
+		  Formal Privacy Policy Framework for Social
+		  Networks</a><br>
+		    </strong>Raúl Pardo and Gerardo Schneider. <em>In
+		      12th International Conference on Software
+		      Engineering and Formal Methods (SEFM) (Grenoble,
+		      France. 2014)<br>
+		    </em>Publisher: Lecture Notes in Computer Science
+		    (LNCS).<br>  [ <a href="bibs/SEFM2014">bib</a>
+		    | <a href="papers/SEFM2014PardoSchneider.pdf">.pdf</a>
+		| <a href="abstracts/SEFM2014">Abstract</a> ]</li>
+	      <li><strong><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6687431">GPU Powered ROSA Analyzer</a><br>
+		    </strong>
+		Raúl Pardo, Fernando L. Pelayo and Pedro Valero-Lara. <em>In 2nd Workshop on Heterogeneous and
+		      Unconventional Cluster Architectures and
+		      Applications (HUCAA) (Lyon, France. 2013)<br>
+		    </em>Publisher: IEEE Computer Society Press.<br>
+		    [ <a href="bibs/HUCAA2013">bib</a>
+		    | <a href="papers/HUCAA2013PardoPelayoValero.pdf">.pdf</a>
+		    | <a href="abstracts/HUCAA2013">Abstract</a>
+		]</li>
+        <li><strong><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6311166">Computational
+		    Analysis of Canny &amp; Binary Fuzzy Rough Set
+		    Model Based on Triangle Modulus Edge
+		    Detector</a></strong><br>
+		Raúl Pardo and Fernando L. Pelayo. <em>In 11th IEEE International Conference on
+		  Cognitive Informatics &amp; Cognitive Computing (ICCI*CC) (Kyoto, Japan. 2012)<br>
+		</em>Publisher: IEEE Computer Society Press.<br>  [ <a href="bibs/ICCICC2012">bib</a>
+		| <a href="papers/ICCICC2012PardoPelayo.pdf">.pdf</a>
+		| <a href="abstracts/ICCICC2012">Abstract</a> ]</li>
+	      <li><strong><a href="http://arxiv.org/abs/1207.2736">ROSA Analyser: An automatized approach to
+		    analyse processes of ROSA</a><br>
+		</strong>
+		Raúl Pardo and Fernando L. Pelayo. <em>In 2nd Workshop on Formal Methods in
+		  the Development of Software (WS-FMDS) (Paris,
+		  France. 2012)<br>
+		</em>Publisher: Electronic Proceedings in
+		Theoretical Computer Science.<br>
+		[ <a href="bibs/WSFMDS2012">bib</a>
+		| <a href="papers/WSFMDS2012PardoPelayo.pdf">.pdf</a>
+		| <a href="abstracts/WSFMDS2012">Abstract</a>
+		]</li>
+	    </ul>
+	  </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+
+    <section id="licentiate" class="licentiate-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Licentiate Thesis</h1>
+            <hr>
+            <p>The licentiate thesis is part of the licentiate degree, which is a half way Ph.D. title which can be acquired in Sweden.</p>
+            <ul style="padding-left: 0px; list-style-type: none;">
+              <strong><a href="http://publications.lib.chalmers.se/publication/222460-formalising-privacy-policies-for-social-networks">Formalising Privacy Policies for Social Networks</a><br>
+      	    <li>
+              </strong>Raúl Pardo. <em>Department of Computer Science and Engineering, Chalmers University of Technology, 2015. Licentiate thesis.</em><br>
+              [ <a href="bibs/licentiate">bib</a> | <a href="http://www.cse.chalmers.se/~pardo/licentiate-raul-pardo.pdf">.pdf</a> | <a href="abstracts/licentiate">Abstract</a> ]
+            </li>
+          </ul>
+
+	    <p>The licentate degree also requires to pass a licentiate seminar. It consists of a presentation of
+	    the results included the thesis and a discussion with an influencial researcher in the topic, who in my case was
+	     <a href="http://www.mpi-sws.org/~dg/">Deepak Garg</a>
+	     from Max Planck Institute for Software Systems,
+	     Germany.</p>
+       <div class="row">
+         <div class="col-sm-6">
+           <li><b>Presentation</b></li><br>
+           <div class="embed-responsive embed-responsive-16by9">
+             <iframe class="embed-responsive-item" src="//www.youtube.com/embed/xMMR7imxD3s" allowfullscreen></iframe>
+           </div>
+           <br>
+         </div>
+         <div class="col-sm-6">
+           <li><b>Discussion with <a href="http://www.mpi-sws.org/~dg/">Deepak Garg</a></b></li><br>
+           <div class="embed-responsive embed-responsive-16by9">
+             <iframe class="embed-responsive-item" src="//www.youtube.com/embed/9kO-0zPUw74" allowfullscreen></iframe>
+           </div>
+           <br>
+         </div>
+       </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+
+    <section id="professional-activities" class="professional-activities-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Paper Review</h1>
+            <hr>
+            <p>I have been part of the review process of the following conferences and journals:</p>
+	    <ul>
+	      <li>Journals</li>
+	      <ul>
+		<li><a href="http://www.journals.elsevier.com/journal-of-logical-and-algebraic-methods-in-programming/">Journal of Logical and Algebraic Methods in Programming (JLAMP)</a></li>
+		<li><a href="https://mc.manuscriptcentral.com/toit">ACM Transactions on Internet Technology (TOIT)</a></li>
+	      </ul>
+	      <li>Conferences</li>
+	      <ul>
+		<li><a href="https://www2018.thewebconf.org/">27th International World Wide Web Conference (WWW 2018)</a></li>
+		<li><a href="http://rv2017.cs.manchester.ac.uk/">17th International Conference on Runtime Verification (RV 2017)</a></li>
+		<li><a href="http://www.ieee-security.org/TC/SP2017/">38th IEEE Symposium on Security and Privacy (S&amp;P 2017)</a></li>
+		<li><a href="https://www.sigsac.org/ccs/CCS2016/">23rd ACM Conference on Computer and Communications Security (CCS 2016)</a></li>
+		<li><a href="https://itp2016.inria.fr/">7th Conference on Interactive Theorem Proving (ITP 2016)</a></li>
+		<li><a href="http://www.ictac2015.co/">12th International Colloquium on Theoretical Aspects of Computing (ICTAC 2015)</a></li>
+		<li><a href="http://www.sigsac.org/ccs/CCS2015/">22nd ACM Conference on Computer and Communications Security (CCS 2015)</a></li>
+		<li><a href="http://www.dmi.unict.it/~giamp/sac/cfp2015.php">14th edition of the Computer Security track at the 30th ACM Symposium on Applied Computing (SEC@SAC 2015)</a></li>
+	      </ul>
+	      <li>Worshops</li>
+	      <ul>
+		<li><a href="http://fmpriv2016.cs.ucy.ac.cy/">1st Formal Methods on Privacy Workshop (FMPriv 2016)</a></li>
+	      </ul>
+	    </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="teaching" class="teaching-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+	    <h1>Teaching</h1>
+	    <hr>
+	    <h3>Master thesis supervision</h3>
+	    <ul>
+	      <li>Mushfiqur Rahman. <a href="https://gupea.ub.gu.se/handle/2077/53077">A Petri Nets Semantics for Privacy-Aware Data Flow Diagrams</a>. 2017.</li>
+	      <li>Ivana Kellyérová. <a href="https://gupea.ub.gu.se/handle/2077/52187">A Real-Time Extension of the Formal Privacy Policy Framework</a>. 2016.</li>
+	    </ul>
+
+	    <h3>Courses</h3>
+      Since 2013 I am involved in the following courses as Teaching Assistant (TA):
+      <h4>Formal Methods for Software Development</h4>
+      <ul>
+	<li>2017 <a href="http://www.cse.chalmers.se/edu/year/2017/course/TDA294_Formal_Methods_for_Software_Development/">(TDA294) LP1</a></li>
+        <li>2016 <a href="http://www.cse.chalmers.se/edu/year/2016/course/TDA293/">(TDA293) LP1</a></li>
+        <li>2015 <a href="http://www.cse.chalmers.se/edu/year/2015/course/TDA293/">(TDA293) LP1</a></li>
+      </ul>
+	    <h4>Principles of Concurrent Programming</h4>
+	    <ul>
+	      <li>2017 <a href="http://www.cse.chalmers.se/edu/year/2017/course/TDA384_LP1/">(TDA384/DIT391) LP1</a></li>
+	      <li>2017 <a href="http://www.cse.chalmers.se/edu/year/2016/course/TDA383_LP3/">(TDA383/DIT390) LP3</a></li>
+	      <li>2016 <a href="http://www.cse.chalmers.se/edu/year/2016/course/TDA383_LP1/">(TDA383/DIT390) LP1</a></li>
+	      <li>2016 <a href="http://www.cse.chalmers.se/edu/year/2015/course/TDA383_LP3/">(TDA383/DIT390) LP3</a></li>
+        <li>2015 <a href="http://www.cse.chalmers.se/edu/year/2015/course/TDA383_LP1/">(TDA383/DIT390) LP1</a></li>
+	      <li>2015 <a href="http://www.cse.chalmers.se/edu/course/TDA383_LP3/">(TDA383/DIT390) LP3</a></li>
+	      <li>2014 <a href="http://www.cse.chalmers.se/edu/course/TDA383_LP1/">(TDA383/DIT390) LP1</a></li>
+	      <li>2014 <a href="http://www.cse.chalmers.se/edu/course/TDA382_LP3/">(TDA382/DIT390) LP3</a></li>
+	      <li>2013 <a href="http://www.cse.chalmers.se/edu/year/2013/course/TDA382_Concurrent_Programming_2013-2014_LP1/news/">(TDA382/DIT390) LP1</a></li>
+	    </ul>
+	    <h4>Databases</h4>
+	    <ul>
+	      <li>2014 <a href="http://www.cse.chalmers.se/edu/year/2014/course/TDA357_Databases/">(TDA357/DIT620) LP2</a></li>
+	      <li>2013 <a href="http://www.cse.chalmers.se/edu/year/2013/course/TDA357_Databases/">(TDA357/DIT620) LP2</a></li>
+	    </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

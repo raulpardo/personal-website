@@ -1,0 +1,8 @@
+@INPROCEEDINGS{PKSS16sepposn,
+author={R. Pardo and I. Kelly\'erov\'a and C. S\'anchez and G. Schneider},
+booktitle={23rd International Symposium on Temporal Representation and Reasoning (TIME)},
+title={Specification of Evolving Privacy Policies for Online Social Networks},
+year={2016},
+pages={70-79},
+doi={10.1109/TIME.2016.15}
+}

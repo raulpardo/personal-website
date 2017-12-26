@@ -1,0 +1,29 @@
+In this work we present the first version of ROSAA, Rosa Analyzer,
+using a GPU architecture. ROSA is a Markovian Process Algebra [11]
+able to capture pure non-determinism, probabilities and timed actions;
+Over it, a tool has been developed for getting closer to a fully
+automatic process of analyzing the behaviour of a system specified as
+a process of ROSA, so that, ROSAA [10] is able to automatically
+generate the part of the Labeled Transition System (occasionally the
+whole one), LTS in the sequel, in which we could be interested, but,
+since this is a very computationally expensive task, a GPU powered
+version of ROSAA which includes parallel processing capabilities, has
+been created to better deal with such generating process.  As the
+conventional GPU processing loads are mainly focused on data
+parallelization over quite similar types of data, this work means a
+quite novel use of these kind of architectures, moreover the authors
+do not know any other formal model tool running over GPUs. ROSAA
+running starts with the Syntactic analysis so generating a layered
+structure suitable to, afterwards, apply the Operational Semantics
+transition rules in the easiest way. Since from each
+specification/state more than one rule could be applied, this is the
+key point at which GPU should provide its benefits, i.e., allowing to
+generate all the new states reachable in a single-semantics-step from
+a given one, at the same time through a simultaneous launching of a
+set of threads over the GPU platform.  Although this establishes a
+step forward to the practical usefulness of such type of tools, the
+state-explosion problem arises indeed, so we are aware that reducing
+the size of the LTS will be sooner or later required, in this line the
+authors are working on an heuristics to properly prune an enough
+number of branches of the LTS, so making the task of generating it,
+more tractable.

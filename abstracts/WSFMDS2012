@@ -1,0 +1,14 @@
+In this work we present the first version of ROSA Analyser, a tool in
+order to get closer to a fully automatic process of analysing the
+behaviour of a system specified as a process of the Markovian Process
+Algebra ROSA. In this first development stage, ROSA Analyser is able
+to generate the Labelled Transition System, according to ROSA
+Operational Semantics.  ROSA Analyser performance starts with the
+Syntactic Analysis so generating a layered structure, suitable to
+then, apply the Operational Semantics Transition rules in the easier
+way. ROSA Analyser is able to recognize some states identities deeper
+than the Syntactic ones. This is the very first step in the way to
+reduce the size of the LTS and then to avoid the explosion of states
+problem, so making this task more tractable.  For the sake of better
+illustrating the usefulness of ROSA Analyser, a case study is also
+provided within this work.

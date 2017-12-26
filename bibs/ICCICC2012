@@ -1,0 +1,9 @@
+@INPROCEEDINGS{6311166, 
+author={Pardo, R. and Pelayo, F.L.}, 
+booktitle={Cognitive Informatics Cognitive Computing (ICCI*CC), 2012 IEEE 11th International Conference on}, 
+title={Computational analysis of Canny amp; Binary Fuzzy Rough Set model based on Triangle Modulus Edge Detectors}, 
+year={2012}, 
+month={Aug}, 
+pages={305-312}, 
+keywords={computational complexity;edge detection;fuzzy set theory;process algebra;rough set theory;Canny edges detector;Markovian process algebra;ROSA analyser tool;binary fuzzy rough set model;computational analysis;computational complexity;labelled transition system;operational semantics;syntactical representation;syntactical structure;triangle modulus edge detectors;Algorithm design and analysis;Detectors;Image edge detection;Noise;Rough sets;Semantics;Syntactics}, 
+doi={10.1109/ICCI-CC.2012.6311166},}

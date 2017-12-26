@@ -1,0 +1,15 @@
+@incollection{PS14fpp,
+year={2014},
+isbn={978-3-319-10430-0},
+booktitle={Software Engineering and Formal Methods},
+volume={8702},
+series={Lecture Notes in Computer Science},
+editor={Giannakopoulou, Dimitra and Salaün, Gwen},
+doi={10.1007/978-3-319-10431-7_30},
+title={A Formal Privacy Policy Framework for Social Networks},
+url={http://dx.doi.org/10.1007/978-3-319-10431-7_30},
+publisher={Springer International Publishing},
+author={Pardo, Ra\'ul and Schneider, Gerardo},
+pages={378-392},
+language={English}
+}

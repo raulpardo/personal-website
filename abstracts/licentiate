@@ -1,0 +1,16 @@
+Social Network Services (SNSs) have changed the way people communicate, bringing
+many benefits but also the possibility of new threats. Privacy is one of them.
+We present here a framework to write privacy policies for SNSs and to reason
+about such policies in the presence of events making the network to evolve. The
+framework includes a model of SNSs, a logic to specify properties and reasoning
+about the knowledge of the users (agents) of the SNS, and a formal language to
+write privacy policies. Agents are enhanced with a reasoning engine allowing to
+infer knowledge from previously acquired one.  To describe the way SNSs may
+evolve, we provide operational semantics rules which are classified into four
+categories: epistemic, topological, policy, and hybrid, depending on whether the
+events under consideration change the knowledge of the SNS' users, the structure
+of the social graph, the privacy policies, or a combination of the above,
+respectively.  We provide specific rules for describing Twitter's behaviour, and
+prove that it is privacy-preserving (i.e., that privacy is preserved under any
+possible event of the system). We also show how Twitter and Facebook are not
+privacy-preserving in the presence of additional natural privacy policies.

@@ -1,0 +1,18 @@
+Online Social Networks are ubiquitous, bringing not only numerous new
+possibilities but also big threats and challenges. Privacy is one of
+them.  Most social networks today offer a limited set of (static)
+privacy settings, not being able to express dynamic policies.  For
+instance, users might decide to protect their location during the
+night, or share information with difference audiences depending on
+their current position.  In this paper we introduce TFPPF, a formal
+framework to express, and reason about, dynamic (and recurrent)
+privacy policies that are activated or deactivated by context (events)
+or time.  Besides a formal policy language (TPPL), the framework
+includes a knowledge-based logic extended with (linear) temporal
+operators and a learning modality (TKBL). Policies, and formulae in
+the logic, are interpreted over (timed) traces representing the
+evolution of the social network.  We prove that checking privacy
+policy conformance, and the model-checking problem for TKBL, are both
+decidable.
+We prove that checking privacy policy conformance, and the
+model-checking problem for TKBL, are both decidable.

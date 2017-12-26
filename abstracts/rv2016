@@ -1,0 +1,13 @@
+Online Social Networks (OSNs) are ubiquitous, with more than 70% of
+Internet users being active users of such networking services. This widespread
+use of OSNs brings with it big threats and challenges, privacy being one of
+them.  Most OSNs today offer a limited set of (static) privacy settings and do
+not allow for the definition, even less enforcement, of more dynamic privacy
+policies. In this paper we are concerned with the specification and enforcement
+of dynamic (and recurrent) privacy policies that are activated or deactivated by
+context (events). In particular, we present a novel formalism of policy
+automata, transition systems where privacy policies may be defined per state. We
+further propose an approach based on runtime verification techniques to define
+and enforce such policies. We provide a proof-of-concept implementation for the
+distributed social network Diaspora, using the runtime verification tool LARVA
+to synthesise enforcement monitors.

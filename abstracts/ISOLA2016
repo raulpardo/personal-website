@@ -1,0 +1,8 @@
+Online Social Networks have increased the need to understand well and
+extend the expressiveness of privacy policies. In particular, the need
+to be able to define and enforce dynamic (and recurrent) policies that
+are activated or deactivated by context (events) or timeouts. We
+propose an automaton-based approach to define and enforce such
+policies using runtime verification techniques. In this paper we
+discuss how our proposed solution addresses this problem without
+focussing on concrete technical details.

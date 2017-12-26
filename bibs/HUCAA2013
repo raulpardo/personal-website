@@ -1,0 +1,10 @@
+@INPROCEEDINGS{6687431, 
+author={Pardo, R. and Pelayo, F.L. and Lara, P.V.}, 
+booktitle={Parallel Processing (ICPP), 2013 42nd International Conference on}, 
+title={GPU Powered ROSA Analyzer}, 
+year={2013}, 
+month={Oct}, 
+pages={901-908}, 
+keywords={Markov processes;formal verification;graphics processing units;parallel processing;process algebra;GPU architecture;LTS;Markovian process algebra;ROSA analyzer;ROSAA;labeled transition system;layered structure;operational semantics transition rules;parallel processing;state-explosion problem;syntactic analysis;Algebra;Data structures;Graphics processing units;Kernel;Semantics;Syntactics;Process Algebra;Tool;Un-conventional use of GPU}, 
+doi={10.1109/ICPP.2013.107}, 
+ISSN={0190-3918},}

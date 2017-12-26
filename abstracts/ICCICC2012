@@ -1,0 +1,16 @@
+In this work we present a formal comparative over the computational
+complexity of two edge detectors, in one hand the Canny Edges Detector
+and on the other an edges detector based on Rough Sets Theory which
+has been proved as very efficient from the results point of view, so
+we are now interested in their performances, i.e., we have developed
+an analysis from the computational point of view.  To develop such
+study we have used ROSA Analyser tool which generates the Labelled
+Transition System, LTS, corresponding to a process specified in the
+Markovian Process Algebra ROSA.  ROSA Analyser takes as input the
+syntactical representation of the process and once its syntactical
+structure has been properly layered represented -internally- by the
+tool, it applies the Operational Semantics of ROSA, so producing the
+corresponding LTS, which shows all the possible behaviours of the
+system we are interested in.  A clear advantage, also from the
+computational point of view, of the encoder using Rough Sets Theory
+has been found.

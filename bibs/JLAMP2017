@@ -1,0 +1,12 @@
+@article{jlamp2017,
+  author    = {Ra{\'{u}}l Pardo and
+               Musard Balliu and
+               Gerardo Schneider},
+  title     = {Formalising privacy policies in social networks},
+  journal   = {J. Log. Algebr. Meth. Program.},
+  volume    = {90},
+  pages     = {125--157},
+  year      = {2017},
+  doi       = {10.1016/j.jlamp.2017.02.008}
+}
+

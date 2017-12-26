@@ -1,0 +1,17 @@
+Social networks (SN) provide a great opportunity to help people
+interact with each other in different ways depending on the kind of
+relationship that links them. One of the aims of SN is to be flexible
+in the way one shares information, being as permissive as possible in
+how people communicate and disseminate information. While preserving
+the spirit of SN, users would like to be sure that their privacy is
+not compromised. One way to do so is by providing users with means to
+define their own privacy policies and give guarantees that they will
+be respected. In this paper we present a privacy policy framework for
+SN, consisting of a formal model of SN, a knowledge-based logic, and a
+formal privacy policy language. The framework may be tailored by
+providing suitable instantiations of the different relationships, the
+events, the propositions representing what is to be known, and the
+additional facts or rules a particular social network should satisfy.
+Besides, models of Facebook and Twitter are instantiated in our
+formalism, and we provide instantiations of a number of richer privacy
+policies.
