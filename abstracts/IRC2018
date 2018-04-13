@@ -1,0 +1,20 @@
+Reinforcement learning (RL) is a machine learning technique that has been
+increasingly used in robotic systems. In reinforcement learning, instead of
+manually pre-program what action to take at each step, we convey the goal a
+software agent in terms of reward functions. The agent tries different actions
+in order to maximize a numerical value, i.e. the reward. A misspecified reward
+function can cause problems such as reward hacking, where the agent finds out
+ways that maximize the reward without achieving the intended goal. As RL agents
+become more general and autonomous, the design of reward functions that elicit
+the desired behaviour in the agent becomes more important and cumbersome. In
+this paper, we present a technique to formally express reward functions in a
+structured way; this stimulates a proper reward function design and as well
+enables the formal verification of it. We start by defining the reward function
+using state machines. In this way, we can statically check that the reward
+function satisfies certain properties, e.g., high-level requirements of the
+function to learn. Later we automatically generate a runtime monitor---which
+runs in parallel with the learning agent---that provides the rewards according
+to the definition of the state machine and based on the behaviour of the agent.
+We use the UPPAAL model checker to design the reward model and verify the TCTL
+properties that model high-level requirements of the reward function and LARVA
+to monitor and enforce the reward model to the RL agent at runtime.
