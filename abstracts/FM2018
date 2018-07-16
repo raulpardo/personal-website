@@ -1,0 +1,16 @@
+We present an epistemic logic equipped with time-stamps in atoms and epistemic
+operators, which enables reasoning about the moments at which events happen and
+knowledge is acquired or deduced. Our logic includes both an epistemic operator
+K and a belief operator B, to capture the disclosure of inaccurate information.
+Our main motivation is to describe rich privacy policies in online social
+networks (OSNs). Most of today's privacy policy mechanisms in existing OSNs
+allow only static policies. In our logic, it is possible to express rich dynamic
+policies in terms of the knowledge available to the different users and the
+precise time of actions and deductions. Our framework can be instantiated for
+different OSNs, by specifying the effect of the actions in the evolution of the
+social network and in the knowledge disclosed to each user. We present an
+algorithm for deducing knowledge and propagating beliefs, which can also be
+instantiated with different variants of how the epistemic information is
+preserved through time. Policies are modelled as formulae in the logic, which
+are interpreted over timed traces. Finally, we show that model-checking is
+decidable. 
