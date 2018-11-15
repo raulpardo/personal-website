@@ -1,0 +1,14 @@
+@inproceedings{fm2018,
+  author    = {Ra{\'{u}}l Pardo and
+               C{\'{e}}sar S{\'{a}}nchez and
+               Gerardo Schneider},
+  title     = {Timed Epistemic Knowledge Bases for Social Networks},
+  booktitle = {Proceedings of the 22nd International Symposium on Formal Methods, {FM} 2018, Held as
+               Part of the Federated Logic Conference, FloC 2018, Oxford, UK, July
+               15-17, 2018.},
+  pages     = {185--202},
+  year      = {2018},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10951},
+  doi       = {10.1007/978-3-319-95582-7\_11}
+}
