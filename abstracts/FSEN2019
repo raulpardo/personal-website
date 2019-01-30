@@ -1,0 +1,14 @@
+Smart contracts have been claimed as a means of building an additional
+layer of trust between parties by providing a self-executing
+equivalent of legal contracts. And yet, code does not always perform
+what it was originally intended to do, which resulted in losses of
+millions of dollars. Static verification of smart contracts is thus a
+pressing need. This paper presents an approach to verifying smart
+contracts written in Solidity by automatically translating Solidity
+into Java and using, KeY, a deductive Java verification tool. In
+particular, we solve the problem of rolling back the effects of
+aborted transactions by exploiting KeY's native support of JavaCard
+transactions. We apply our approach to a smart contract which
+automates a casino system, and discuss how the approach addresses a
+number of known shortcomings of smart contract development in
+Solidity.
