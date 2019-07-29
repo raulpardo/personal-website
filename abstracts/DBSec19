@@ -1,0 +1,8 @@
+In this paper, we present an approach to enhance informed consent for
+the processing of personal data. The approach relies on a privacy
+policy language used to express, compare and analyze privacy
+policies. We describe a tool that automatically reports the privacy
+risks associated with a given privacy policy in order to enhance data
+subjects' awareness and to allow them to make more informed
+choices. The risk analysis of privacy policies is illustrated with an
+IoT example.

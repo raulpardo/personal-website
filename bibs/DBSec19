@@ -1,0 +1,12 @@
+@inproceedings{PardoLeMetayerDBSec19,
+  author    = {Ra{\'{u}}l Pardo and
+               Daniel Le M{\'{e}}tayer},
+  title     = {Analysis of Privacy Policies to Enhance Informed Consent},
+  booktitle = {In Proceedings of the 33rd Annual
+               {IFIP} {WG} 11.3 Conference on Data and Applications Security and Privacy},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11559},
+  pages     = {177--198},
+  year      = {2019},
+  doi       = {10.1007/978-3-030-22479-0\_10}
+}
