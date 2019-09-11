@@ -24,6 +24,21 @@
 
   <!-- Academic icons -->
   <link rel="stylesheet" href="css/academicons.min.css"/>
+
+  <script type="text/javascript">
+      var a = "ra";
+      var ñ = "up";
+      var d = "dk";
+      var b = "@i";
+      var e = "tu."
+
+      var bla = a + ñ + b + e + d;
+
+      function showBla() {
+      document.getElementById("bla").textContent = bla;
+      document.getElementById("bla").style.fontStyle = "italic";
+      }
+    </script>
 </head>
 
 <body id="page-top" data-target=".navbar-fixed-top">
@@ -78,7 +93,7 @@
             at <a title="IT University of Copenhagen"
 		  href="https://en.itu.dk/">IT University of Copenhagen</a>	      
 	  </i></p><br>
-            <p><b>Email: </b>raup <em>at</em> itu.dk</p>
+            <p><b>Email: </b><i id="bla" onClick="showBla();"><u>Click to reveal email</u></i></p>
             <p><b>PGP key: </b><a href="https://pgp.key-server.io/0x2BDAEE9919C8163A">19C8163A</a></p>
             <p><b>Phone: </b>+33 (0) 767 87 18 99</p>
             <!-- <p><b>: </b>Rännvägen 6 Room: 5447, 5th floor (EDIT-building)</p> -->
