@@ -1,0 +1,16 @@
+@inproceedings{AhrendtBubelEllulPacePardoRebiscoulSchneiderFSEN19,
+  author    = {Wolfgang Ahrendt and
+               Richard Bubel and
+               Joshua Ellul and
+               Gordon J. Pace and
+               Ra{\'{u}}l Pardo and
+               Vincent Rebiscoul and
+               Gerardo Schneider},
+  title     = {Verification of Smart Contract Business Logic - Exploiting a Java
+               Source Code Verifier},
+  booktitle = {Fundamentals of Software Engineering - 8th International Conference,
+               {FSEN} 2019, Tehran, Iran, May 1-3, 2019, Revised Selected Papers},
+  pages     = {228--243},
+  year      = {2019},
+  doi       = {10.1007/978-3-030-31517-7\_16}
+}
