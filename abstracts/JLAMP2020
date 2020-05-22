@@ -1,0 +1,13 @@
+Most Online Social Networks allow users to set their privacy settings
+concerning posting information, but current implementations do not
+allow a fine grained enforcement in case the posted item concerns
+other users. In this paper we propose a new collaborative access
+control framework that takes into account the relation of multiple
+users for viewing as well as for sharing items, eventually solving
+conflicts in the privacy settings of the users involved. Our solution
+relies on two algorithms, one for viewing and another one for sharing
+items. We provide an evaluation of these algorithms where we
+demonstrate how varying some of the parameters directly influences the
+decision of viewing or sharing an item. Last but not least, we present
+a proof-of-concept implementation of our approach in an open source
+social network called Diaspora.

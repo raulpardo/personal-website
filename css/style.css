@@ -63,3 +63,9 @@ html {
     text-align: left;
     background: #fff;
 }
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: gray;
+}
