@@ -1,0 +1,12 @@
+@article{jlamp2020,
+	title   = {A collaborative access control framework for online social networks},
+	author  = {Hanaa Alshareef and Raúl Pardo and Gerardo Schneider and Pablo Picazo-Sanchez},
+	journal = {Journal of Logical and Algebraic Methods in Programming},
+	volume  = {114},
+	pages   = {100562},
+	year    = {2020},
+	issn    = {2352-2208},
+	doi     = {https://doi.org/10.1016/j.jlamp.2020.100562},
+	url     = {http://www.sciencedirect.com/science/article/pii/S235222082030047X}
+}
+
