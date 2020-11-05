@@ -1,0 +1,15 @@
+@inproceedings{wpes2020,
+author = {Morel, Victor and Pardo, Ra\'{u}l},
+title = {SoK: Three Facets of Privacy Policies},
+year = {2020},
+isbn = {9781450380867},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi = {10.1145/3411497.3420216},
+booktitle = {Proceedings of the 19th Workshop on Privacy in the Electronic Society},
+pages = {41–56},
+numpages = {16},
+keywords = {usability, legal compliance, enforcement, privacy policies},
+location = {Virtual Event, USA},
+series = {WPES'20}
+}
