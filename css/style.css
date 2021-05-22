@@ -74,3 +74,19 @@ a.disabled {
   cursor: default;
   color: gray;
 }
+
+.label-pill {
+    padding-right: .4em;
+    padding-left: .4em;
+    border-radius: 7rem;
+    padding-top: 0em;
+    padding-bottom: .1em;
+}
+
+.project-list li {
+    padding-bottom: 1em;
+}
+
+#project-ideas {
+    padding-top: 55px;
+}
