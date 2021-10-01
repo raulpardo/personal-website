@@ -1,0 +1,16 @@
+@InProceedings{10.1007/978-3-030-88428-4_21,
+author="Pardo, Ra{\'u}l
+and Rafnsson, Willard
+and Probst, Christian W.
+and W{\k{a}}sowski, Andrzej",
+editor="Bertino, Elisa
+and Shulman, Haya
+and Waidner, Michael",
+title="Privug: Using Probabilistic Programming for Quantifying Leakage in Privacy Risk Analysis",
+booktitle="Computer Security -- ESORICS 2021",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="417--438",
+isbn="978-3-030-88428-4"
+}
