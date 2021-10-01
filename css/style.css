@@ -37,6 +37,12 @@ ul {
     background: #fff;
 }
 
+.news-section {
+    padding-top: 50px;
+    text-align: left;
+    background: #fff;
+}
+
 .about-section {
     padding-top: 100px;
     text-align: left;
@@ -89,4 +95,12 @@ a.disabled {
 
 #project-ideas {
     padding-top: 55px;
+}
+
+.to-hide {
+    display: none;
+}
+
+.to-show {
+    display: list-item;
 }
