@@ -1,0 +1,15 @@
+@inproceedings{10.1145/3510548.3519380,
+  author = {Halvorsen, Louise and Steffensen, Siv L. and Rafnsson, Willard and Kulyk, Oksana and Pardo, Ra\'{u}l},
+  title = {How Attacker Knowledge Affects Privacy Risks: An Analysis Using Probabilistic Programming},
+  year = {2022},
+  isbn = {9781450392303},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3510548.3519380},
+  doi = {10.1145/3510548.3519380},
+  booktitle = {Proceedings of the 2022 ACM on International Workshop on Security and Privacy Analytics},
+  pages = {55–65},
+  numpages = {11},
+  location = {Baltimore, MD, USA},
+  series = {IWSPA '22}
+}
