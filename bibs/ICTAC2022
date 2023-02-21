@@ -1,0 +1,17 @@
+@inproceedings{PJSWICTAC22,
+  author    = {Ra{\'{u}}l Pardo and
+               Einar Broch Johnsen and
+               Ina Schaefer and
+               Andrzej Wasowski},
+  title     = {A Specification Logic for Programs in the Probabilistic Guarded Command Language},
+  booktitle = {Proceedings of the 19th International
+               Colloquium on Theoretical Aspects of Computing, {ICTAC'22}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13572},
+  pages     = {369--387},
+  publisher = {Springer},
+  year      = {2022},
+  url       = {https://doi.org/10.1007/978-3-031-17715-6\_24},
+  doi       = {10.1007/978-3-031-17715-6\_24}
+}
+
