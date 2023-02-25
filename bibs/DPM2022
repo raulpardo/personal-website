@@ -1,0 +1,19 @@
+@inproceedings{PRSLLPZWDPM22,
+  author    = {Pardo, Ra{\'u}l
+  	       and Rafnsson, Willard
+	       and Steinhorn, Gregor
+	       and Lavrov, Denis
+	       and Lumley, Thomas
+	       and Probst, Christian W.
+	       and Ziedins, Ilze
+	       and W{\k{a}}sowski, Andrzej},
+  title     = {Privacy with Good Taste: A Case Study in Quantifying Privacy Risks in Genetic Scores},
+  booktitle = {Proceedings of the 17th International Workshop on Data Privacy Management, {DPM'22}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {13619},
+  pages     = {103--119},
+  publisher = {Springer},
+  year      = {2022},
+  url       = {https://doi.org/10.1007/978-3-031-25734-6\_7},
+  doi       = {10.1007/978-3-031-25734-6\_7}
+}
