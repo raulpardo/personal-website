@@ -1,0 +1,11 @@
+@InProceedings{RPWeebiprq23,
+    author    = {R{\o}nneberg, Rasmus C. and Pardo, Ra{\'u}l and W{\k{a}}sowski, Andrzej},
+    editor    = {Ferreira, Carla and Willemse, Tim A. C.},
+    title     = {Exact and Efficient Bayesian Inference for Privacy Risk Quantification},
+    booktitle = {Software Engineering and Formal Methods},
+    year      = {2023},
+    publisher = {Springer Nature Switzerland},
+    pages     = {263--281},
+    doi       = {https://doi.org/10.1007/978-3-031-47115-5_15},
+    isbn      = {978-3-031-47115-5}
+}
