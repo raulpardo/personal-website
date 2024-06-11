@@ -75,7 +75,7 @@ ul {
     background: #fff;
 }
 
-a.disabled {
+a.inactive {
   pointer-events: none;
   cursor: default;
   color: gray;
