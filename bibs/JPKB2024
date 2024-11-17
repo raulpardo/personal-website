@@ -1,0 +1,24 @@
+@Inbook{Johnsen2025,
+    author="Johnsen, Einar Broch
+            and Kamburjan, Eduard
+            and Pardo, Ra{\'u}l
+            and Voogd, Erik
+            and W{\k{a}}sowski, Andrzej",
+    editor="Jansen, Nils
+            and Junges, Sebastian
+            and Kaminski, Benjamin Lucien
+            and Matheja, Christoph
+            and Noll, Thomas
+            and Quatmann, Tim
+            and Stoelinga, Mari{\"e}lle
+            and Volk, Matthias",
+    title="Towards a Proof System for Probabilistic Dynamic Logic",
+    bookTitle="Principles of Verification: Cycling the Probabilistic Landscape: Essays Dedicated to Joost-Pieter Katoen on the Occasion of His 60th Birthday, Part I",
+    year="2025",
+    publisher="Springer Nature Switzerland",
+    address="Cham",
+    pages="322--338",
+    isbn="978-3-031-75783-9",
+    doi="10.1007/978-3-031-75783-9_13",
+    url="https://doi.org/10.1007/978-3-031-75783-9_13"
+}

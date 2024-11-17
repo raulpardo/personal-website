@@ -1,0 +1,23 @@
+@Inbook{Schröer2025,
+    author="Schr{\"o}er, Philipp
+        and Randone, Francesca
+        and Pardo, Ra{\'u}l
+            and W{\k{a}}sowski, Andrzej",
+    editor="Jansen, Nils
+            and Junges, Sebastian
+            and Kaminski, Benjamin Lucien
+            and Matheja, Christoph
+            and Noll, Thomas
+            and Quatmann, Tim
+            and Stoelinga, Mari{\"e}lle
+            and Volk, Matthias",
+    title="Symbolic Quantitative Information Flow for Probabilistic Programs",
+    bookTitle="Principles of Verification: Cycling the Probabilistic Landscape: Essays Dedicated to Joost-Pieter Katoen on the Occasion of His 60th Birthday, Part I",
+    year="2025",
+    publisher="Springer Nature Switzerland",
+    address="Cham",
+    pages="128--154",
+    isbn="978-3-031-75783-9",
+    doi="10.1007/978-3-031-75783-9_6",
+    url="https://doi.org/10.1007/978-3-031-75783-9_6"
+}
