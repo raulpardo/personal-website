@@ -1,0 +1,10 @@
+@InProceedings{10.1007/978-3-031-77382-2_15,
+  author     = {Pardo, Ra{\'u}l and Le M{\'e}tayer, Daniel},
+  title      = {Model-Checking the Implementation of Consent},
+  booktitle  = {Software Engineering and Formal Methods},
+  year       = {2024},
+  publisher  = {Springer Nature Switzerland},
+  pages      = {253--271},
+  doi        = {https://doi.org/10.1007/978-3-031-77382-2_15}
+  isbn       = {978-3-031-77382-2}
+}
