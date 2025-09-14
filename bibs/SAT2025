@@ -1,0 +1,18 @@
+@InProceedings{dall_et_al:LIPIcs.SAT.2025.12,
+  author =	{Dall, Maja Aaslyng and Pardo, Ra\'{u}l and Lumley, Thomas and W\k{a}sowski, Andrzej},
+  title =	{{SAT-Metropolis: Combining Markov Chain Monte Carlo with SAT/SMT Sampling}},
+  booktitle =	{28th International Conference on Theory and Applications of Satisfiability Testing (SAT 2025)},
+  pages =	{12:1--12:18},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-381-2},
+  ISSN =	{1868-8969},
+  year =	{2025},
+  volume =	{341},
+  editor =	{Berg, Jeremias and Nordstr\"{o}m, Jakob},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2025.12},
+  URN =		{urn:nbn:de:0030-drops-237462},
+  doi =		{10.4230/LIPIcs.SAT.2025.12},
+  annote =	{Keywords: SAT/SMT sampling, Probabilistic inference, Markov Chain Monte Carlo}
+}
