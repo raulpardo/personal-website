@@ -1,0 +1,11 @@
+@InProceedings{probtest,
+  author     = {Christensen, Katrine and Varshosaz, Mahsa and Pardo, Ra{\'u}l},
+  title      = {ProbTest: Unit Testing for Probabilistic Programs},
+  booktitle  = {Proceedings of 23rd International Conference on Software Engineering and Formal Methods {SEFM 2025}},
+  year       = {2025},
+  publisher  = {Springer Nature},
+  series     = {Lecture Notes in Computer Science},
+  volume     = {16192},
+  pages      = {91--109},
+  doi        = {https://doi.org/10.1007/978-3-032-10444-1_6}
+}
